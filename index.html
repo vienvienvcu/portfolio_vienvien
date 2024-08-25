@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="style.css">
+      <!------------BOX ICONS--------------->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <title>portfolio.js</title>
+</head>
+<body>
+    <div class="main">
+    <header class="header">
+        <div class="container menu">
+            <div class="row justify-content-between align-items-center">
+                <div class="brand-name">
+                    <a href="#">Vien Nguyen.</a>
+                </div>
+                <div class="nav-toggler">
+                    <span></span>
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#home" class="nav-item link-item active">home</a></li>
+                        <li><a href="#about" class="nav-item link-item">about </a></li>
+                        <li><a href="#portfolio" class="nav-item link-item">portfolio</a></li>
+                        <li><a href="#contact" class="nav-item link-item">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- home section start -->
+    <section class="home-section align-items-center" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="home-text">
+                    <p>Hello, I'm</p>   
+                    <h1>Vien nguyen</h1>
+                    <h2>Fullstack web developer</h2>
+                    <a href="#about" class="btn link-item">more about me</a>
+                    <a href="#portfolio" class="btn link-item">porfolio</a>
+                </div>
+                <div class="home-img">
+                    <div class="img-box">
+                        <img src="./img/header copy.png" alt="porfolio-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- scroll down -->
+        <a href="#" class="scroll-down">
+            <i class='bx bxs-chevrons-down' ></i>
+        </a>
+    </section>
+    <!-- home section end-->
+
+    <!-- about section start-->
+     <section class="about-section sec-padding" id="about">
+         <div class="container">
+             <div class="row ">
+                 <div class="title-section">
+                     <h2>about me</h2>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="about-img">
+                     <div class="img-box">
+                         <img src="./img/aboutme.jpeg" alt="">
+                     </div>
+                 </div>
+                 <div class="about-text">
+                     <p><span style="font-weight: 700;">ビエンと申します!</span><br>
+                         ベトナムから参りましております今日本では愛知県に住んでいます。
+                         ２０１５年から情報システム部門の貿易大学を卒業しました.私の趣味はスポーツをして旅行をすること、
+                         それ以外に特別にフロントエンドエンジニアでプローになりたい。
+                         仕事の中で真面目にしている人それに時間を絶対守らないといけないからこそストレスが溜まったこともある。
+                         それより新しいチャレンジを作って体験をしています多分結果が大切だが結果までプロセスをもっと魅了と感じている.
+                        </p>
+
+                    <h3>skills</h3> 
+                    <div class="skills">
+                        <div class="skill-item">html</div>
+                        <div class="skill-item">css</div>
+                        <div class="skill-item">javascript</div>
+                        <div class="skill-item">jquery</div>
+                        <div class="skill-item">bootstrap</div>
+                        <div class="skill-item">java</div>
+                        <div class="skill-item">mySql</div>  
+                        <div class="skill-item">API</div>
+                        <div class="skill-item">Photoshop</div>
+                    </div>
+                    <div class="about-tabs">
+                        <button type = "button" class="active tab-item" data-tagert="#education">education</button>
+                        <button type = "button" class="tab-item" data-tagert="#experience">experience</button>
+                    </div>
+                    <!-- education start -->
+                    <div class="tab-content active" id = "education">
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <span class="date">2011-2015</span>
+                                <h4>情報システム - <span style="font-weight: 700;"> 貿易大学 </span></h4>
+                                <p>大学時代に４年間を終わりましたけども。
+                                    その間に新しい先生や友達に会えたりいろんな経験があたりするだけじゃない基本的にitの専攻とか文化とかマナーを身につけていた</p>
+                            </div>
+                            <div class="timeline-item">
+                                <span class="date">201３-2014</span>
+                                <h4>英会話- <span style="font-weight: 700;">langmasterセンター</span> </h4>
+                                <p>大学時代に２年生になりましたから今まで簡単な英会話を話せて読解力を持っているがあまり得意ではありません。
+                                    だからウェブ発展を改善するようにではほとんど英語の参考書とかビデオを使って自習している
+                                    毎日に１５分しかかけなくても英会話を改善するようにするつもりです
+                                </p>
+                            </div>
+                            <div class="timeline-item">
+                                <span class="date">2024</span>
+                                <h4>Full stack-<span style="font-weight: 700;"> Rikkei academy センター </span></h4>
+                                <p>Rikkei Academyのセンターでフルスタックプログラムに参加しました。大学時代にプログラミングに触れていたため、HTML、CSS、JavaScript、Java、MySQLの言語を比較的早く理解することができました。
+                                    将来的には、自分で他の言語も学ぶ自信があります</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- education end -->
+                    <!-- experience start -->
+                    <div class="tab-content" id = "experience">
+                         <div class="timeline">
+                            <div class="timeline-item">
+                                <span class="date">2013-2014</span>
+                                <h4>ウィンド設計 -<span style="font-weight: 700;">eurowindow会社</span></h4>
+                                <p>会社に初めてバイトにしていたとき人間関係を築けたり、
+                                仕事優先の順位を決めりしましたからこそいろんな経験を身につけました</p>
+                            </div>
+                            <div class="timeline-item">
+                                <span class="date">2014-2015</span>
+                                <h4>photoshop ソフト-<span style="font-weight: 700;">Br24株式会社</span></h4>
+                                <p>この会社には主に写真をお客様の要求に応えて編集しました。
+                                    それにお客様の意見に沿ってるだけだはなくて預かった品を洗練のアイデアにする必要です
+                                </p>
+                            </div>
+                            <div class="timeline-item">
+                                <span class="date">2020-2023</span>
+                                <h4>工場の通訳-<span style="font-weight: 700;">株式会社ニシムラ</span></h4>
+                                <p>２０２０暮れから日本ではこの機械とかロボットをはじめて操作したことがあるけど。
+                                    以前仕事をすることにしてはすっかり違っていたです</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn">download cv </a>
+                    <a href="#contact"class="btn">contact me </a>
+                
+                    <!-- experience end -->
+                    
+                 </div>
+
+             </div>
+         </div>
+     </section>
+     <!-- about section end-->
+
+
+     <!-- portfolio-section start -->
+     <section class="portfolio-section sec-padding" id="portfolio">
+         <div class="container">
+             <div class="row">
+                 <div class="title-section">
+                     <h2>recent work</h2>
+                 </div>
+            </div>
+            <div class="row">
+                <!-- portfolio item start -->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="img/porfolio1.png" alt="portfolio item thumb">
+                    </div>
+                    <h3 class="portfolio-item-title"> create portfolio website</h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                        <div class="general-info">
+                            <ul>
+                                <li>Created- <span>4 dec 2022</span></li>
+                                <li>technologies used - <span>html , css, javascript</span></li>
+                                <li>role - <span>Frontend</span></li>
+                                <li>view online - <span><a href="https://vienvienvcu.github.io/project_portfolio/" target="blank">"https://vienvienvcu.github.io/project_portfolio/"</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="img/portfolio2.png" alt="portfolio item thumb">
+                    </div>
+                    <h3 class="portfolio-item-title"> create web weather  </h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                        <div class="general-info">
+                            <ul>
+                                <li>Created- <span>7 dec 2024</span></li>
+                                <li>technologies used - <span>html , css, js,api</span></li>
+                                <li>role - <span>Frontend</span></li>
+                                <li>view online - <span><a href="https://vienvienvcu.github.io/api_webthoitiet/" target="blank">https://vienvienvcu.github.io/api_webthoitiet</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="img/portfolio3.png" alt="portfolio item thumb">
+                    </div>
+                    <h3 class="portfolio-item-title"> create website food</h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                        <div class="general-info">
+                            <ul>
+                                <li>Created- <span>5 dec 2024</span></li>
+                                <li>technologies used - <span>html , css, javascript</span></li>
+                                <li>role - <span>Frontend</span></li>
+                                <li>view online - <span><a href="https://github.com/vienvienvcu/project_webFood1" target="blank">https://github.com/vienvienvcu/project_webFood1</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="img/portfolio4.png" alt="portfolio item thumb">
+                    </div>
+                    <h3 class="portfolio-item-title">website film online</h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                        <div class="general-info">
+                            <ul>
+                                <li>Created- <span>8 dec 2024</span></li>
+                                <li>technologies used - <span>html , css ,javascript,java,mySql</span></li>
+                                <li>role - <span>Fullstack</span></li>
+                                <li>view online - <span><a href="https://github.com/Sonnguyenmin/Project_group1_MD3" target="blank"></a>https://github.com/Sonnguyenmin/Project_group1_MD3</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="img/portfolio5.png" alt="portfolio item thumb">
+                    </div>
+                    <h3 class="portfolio-item-title">website portfolio</h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                        <div class="general-info">
+                            <ul>
+                                <li>Created- <span>4 dec 2022</span></li>
+                                <li>technologies used - <span>html , css, js</span></li>
+                                <li>role - <span>Frontend</span></li>
+                                <li>view online - <span><a href="https://github.com/vienvienvcu/hackathon-TEST1.git" target="blank">https://github.com/vienvienvcu/hackathon-TEST1.git</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="img/portfolio6.png" alt="portfolio item thumb">
+                    </div>
+                    <h3 class="portfolio-item-title">responsive adventure website</h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                        <div class="general-info">
+                            <ul>
+                                <li>Created- <span>4 dec 2020</span></li>
+                                <li>technologies used - <span>html , css</span></li>
+                                <li>role - <span>Frontend</span></li>
+                                <li>view online - <span><a href="https://github.com/vienvienvcu/responsive_web.git" target="blank">https://github.com/vienvienvcu/responsive_web.git</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                 <!-- portfolio item end -->
+            </div>
+        </div>
+       
+     </section>
+     <!-- portfolio-section end -->
+
+     <section class="contact-section sec-padding" id="contact">
+         <div class="container">
+             <div class="row">
+                 <div class="title-section">
+                     <h2>contact me</h2>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="contact-form">
+                     <form>
+                         <div class="row">
+                             <div class="input-group">
+                                 <input tyle="text" placeholder="name" class="input-control">
+                             </div>
+                             <div class="input-group">
+                                <input tyle="text" placeholder="mail" class="input-control">
+                            </div>
+                            <div class="input-group">
+                                <input tyle="text" placeholder="subject" class="input-control">
+                            </div>
+                            <div class="input-group">
+                                <textarea  placeholder="messager" class="input-control"></textarea>
+                            </div>
+                            <div class="submit-btn">
+                               <button type="submit" class="btn"> sen messager</button>
+                            </div>
+                         </div>
+                     </form>
+                 </div>
+                 <div class="contact-info">
+                    <div class="contact-info-item">
+                        <h3>Email</h3>
+                        <p>exemple@gmail.com</p>
+                    </div>
+                    <div class="contact-info-item">
+                     <h3>phone</h3>
+                     <p>080********</p>
+                    </div>
+                     <div class="contact-info-item">
+                        <h3>follow me</h3>
+                        <div class="social-links">
+                            <a href="#" ><i class='bx bxl-facebook'></i></a>
+                            <a href="#" ><i class='bx bxl-instagram'></i></a>
+                            <a href="#" ><i class='bx bxl-twitter'></i></a>
+                            <a href="#" ><i class='bx bxl-youtube' ></i></a>
+                        </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+     </div>
+       
+     <!-- portflio item detail popup start -->
+     <div class="portfolio-popup">
+        <div class="pp-inner">
+            <div class="pp-content">
+                <div class="pp-header"> 
+                    <button type="button" class="btn pp-close"><i class='bx bx-x'></i></button>
+                    <div class="pp-thumbnailt">
+                        <img src="./img/porfolio1.png" alt="pp-thumbnail">
+                    </div>
+                    <h3> Portfolio Website</h3>
+                </div>
+                <div class="pp-body">
+                    <div class="general-info">
+                        <ul>
+                            <li>Created- <span>4 dec 2020</span></li>
+                            <li>Technologies used - <span>html , css</span></li>
+                            <li>Role - <span>Frontend</span></li>
+                            <li>View online - <span><a href="#" target="blank">www.domain.com</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- portflio item detail popup end -->
+     <script src="./main.js"></script>
+    
+    
+</body>
+</html>
