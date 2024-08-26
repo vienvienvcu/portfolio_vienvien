@@ -87,13 +87,9 @@ body::after{
      opacity: 0;
  }
  .container{
-     padding: 0 0px;
+     padding: 0 30px;
      margin: auto;
  }
- .container.menu{
-    padding: 0 200px;
-    margin: auto;
-}
  button{
      border: none;
  }
@@ -828,18 +824,3 @@ header .nav-toggler span::before,
           font-size: 20px;
       }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
